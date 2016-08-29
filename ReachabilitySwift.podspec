@@ -18,6 +18,6 @@ Pod::Spec.new do |s|
   }
   s.source_files = 'Reachability/Reachability.swift'
   s.framework    = 'SystemConfiguration'
-
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3.0' }
   s.requires_arc = true
 end
